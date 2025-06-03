@@ -1,0 +1,72 @@
+﻿body {
+    background-color: #F50057
+}
+
+.container {
+    height: 100vh;
+    
+}
+
+.card {
+    
+    width: 100%;
+    background-color: #5F5F5F;
+}
+
+.form {
+    padding: 20px;
+  
+    
+}
+
+.form-control {
+    height: 50px;
+    background-color: #eee
+}
+
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: black;
+        outline: 0;
+        box-shadow: none;
+        background-color: #eee
+    }
+
+.inputbox {
+    margin-bottom: 15px;
+}
+.reset {
+    width: 100px;
+    height: 51px;
+    background-color: #AA0707;
+    border-color: #371482;
+}
+.register {
+    width: 200px;
+    height: 51px;
+    background-color: #371482;
+    border-color: #371482;
+}
+
+    .register:hover {
+        width: 200px;
+        height: 51px;
+        background-color: #4309D4;
+        border-color: #4309D4;
+    }
+
+.login {
+    color: #0F0071;
+    text-decoration: none;
+}
+
+    .login:hover {
+        color: #2300FF;
+        text-decoration: none;
+    }
+
+.form-check-input:checked {
+    background-color: #006378;
+    border-color:black;
+}
